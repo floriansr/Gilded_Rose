@@ -1,4 +1,4 @@
-import Shop from "./shop.mjs";
+import Shop from "./shop.js";
 
 class Item {
   constructor(name, sellIn, quality) {
@@ -131,5 +131,5 @@ updateQuality(items);
 
 export default {
   Item,
-  Shop,
+  BasicProduct,
 };
